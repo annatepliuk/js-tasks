@@ -7,15 +7,79 @@
     content="width=device-width, 
             initial-scale=1.0">
 <title>js-task</title>
-<script src="./js/task-1.js" defer></script>
-<script src="./js/lesson-1.js" defer></script>
+<link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    
-
+<!--
+  13-dom-lesson and 07-transactions
 <a class="link is-active" href="">A random link</a>
+<div class="color-picker"></div>
+    <p><a href="./index.html">Go back</a></p>
+    <table class="transaction-table js-transaction-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Amount</th>
+          <th>Date</th>
+          <th>Who</th>
+          <th>Transaction Type</th>
+          <th>Account Name</th>
+          <th>Account Number</th>
+        </tr>
+      </thead>
+    </table>  
+    -->
 
 
-</body>
+<!--14-dom-lesson-->
+    <!-- <button class="my-button">Next</button>
+    <div class="box js-box"></div>
+
+    <input type="text" class="js-user-name"/>
+    <input type="checkbox" class="js-checkbox"/> -->
+
+      <!-- <form class="js-form feedback-form">
+      <input 
+       type="text" 
+       name="email"
+       class="form-input"
+       placeholder="Email"/>
+      <input 
+       type="password" 
+       name="password" 
+       class="form-input"
+       placeholder="Password"/>
+       <textarea 
+        cols="30"
+        rows="10"
+        name="comment"
+        class="form-textarea"
+        placeholder="Comment">
+      </textarea>
+      <button class="btn" type="submit">Register</button>
+    </form> -->
+  
+
+      <form action="submit" class="js-form car-search">
+      <div class="car-group">
+        <input type="text" name="query" class="car-input" placeholder="Пошук" />
+      </div>
+      <div class="car-group">
+        <select name="options" class="car-select">
+          <option value="car">Марка</option>
+          <option value="type">Модель</option>
+        </select>
+      </div>
+      <button type="submit" class="car-button">Пошук</button>
+    </form>
+
+    <ul class="js-list car-list"></ul>
+    
+    <script src="./js/14-dom-lesson.js" type="module"></script>
+    <script src="./js/13-dom-lesson.js" type="module"></script>
+    <script src="./js/07-transactions.js" type="module"></script>
+  </body>
 </html>
+
+
